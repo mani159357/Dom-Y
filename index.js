@@ -49,3 +49,17 @@ for(var i=0;i<4;i++)
 }
 list[2].innerText="Mani Kanth"
 list[2].style.backgroundColor="green"
+
+var que=document.querySelector("li")
+console.log(que)
+que.textContent="MOco"
+console.log(que)
+var queall=document.querySelectorAll("li")
+queall[1].style.color="green"
+
+for(var j=0;j<queall.length;j+=2)
+{
+    console.log(queall[j])
+    queall[j].style.backgroundColor="green"
+    queall[j].style.fontWeight="bold"
+}
