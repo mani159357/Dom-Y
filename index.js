@@ -27,3 +27,25 @@ items[3].textContent="ADD ITEM"
 items[3].style.fontWeight="bold"
 items[3].style.color="green"
 console.log(header)
+console.log(items)
+items[3].style.color="green"
+
+for(var i=0;i<4;i++)
+{
+    console.log(items[i])
+    items[i].style.backgroundColor="red"
+}
+
+
+var list=document.getElementsByTagName("li")
+
+console.log(list[0])
+list[1].innerText="Mani"
+for(var i=0;i<4;i++)
+{
+    console.log(list[i])
+    list[i].style.backgroundColor="white"
+    list[i].style.fontWeight="bold"
+}
+list[2].innerText="Mani Kanth"
+list[2].style.backgroundColor="green"
